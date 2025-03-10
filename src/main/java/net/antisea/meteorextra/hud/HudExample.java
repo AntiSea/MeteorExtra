@@ -1,6 +1,6 @@
-package com.example.addon.hud;
+package net.antisea.meteorextra.hud;
 
-import com.example.addon.AddonTemplate;
+import net.antisea.meteorextra.AddonTemplate;
 import meteordevelopment.meteorclient.systems.hud.HudElement;
 import meteordevelopment.meteorclient.systems.hud.HudElementInfo;
 import meteordevelopment.meteorclient.systems.hud.HudRenderer;

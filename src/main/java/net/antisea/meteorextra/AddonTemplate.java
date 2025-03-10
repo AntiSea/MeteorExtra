@@ -1,8 +1,8 @@
-package com.example.addon;
+package net.antisea.meteorextra;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
+import net.antisea.meteorextra.commands.CommandExample;
+import net.antisea.meteorextra.hud.HudExample;
+import net.antisea.meteorextra.modules.ModuleExample;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
@@ -15,20 +15,15 @@ import org.slf4j.Logger;
 
 public class AddonTemplate extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
-    public static final HudGroup HUD_GROUP = new HudGroup("Example");
+    public static final Category CATEGORY = new Category("Meteor Extra");
+    public static final HudGroup HUD_GROUP = new HudGroup("Meteor Extra");
 
     @Override
     public void onInitialize() {
         LOG.info("Initializing Meteor Addon Template");
 
-        // Modules
         Modules.get().add(new ModuleExample());
-
-        // Commands
         Commands.add(new CommandExample());
-
-        // HUD
         Hud.get().register(HudExample.INFO);
     }
 
@@ -39,11 +34,11 @@ public class AddonTemplate extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "net.antisea.meteorextra";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("MeteorDevelopment", "meteor-addon-template");
+        return new GithubRepo("AntiSea", "meteor-extra");
     }
 }

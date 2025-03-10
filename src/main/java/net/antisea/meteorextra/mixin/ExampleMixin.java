@@ -1,6 +1,6 @@
-package com.example.addon.mixin;
+package net.antisea.meteorextra.mixin;
 
-import com.example.addon.AddonTemplate;
+import net.antisea.meteorextra.AddonTemplate;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.RunArgs;
 import org.spongepowered.asm.mixin.Mixin;

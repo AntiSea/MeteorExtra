@@ -1,6 +1,6 @@
-package com.example.addon.modules;
+package net.antisea.meteorextra.modules;
 
-import com.example.addon.AddonTemplate;
+import net.antisea.meteorextra.AddonTemplate;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
 import meteordevelopment.meteorclient.settings.ColorSetting;
