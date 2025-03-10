@@ -5,6 +5,7 @@
   "name": "Meteor Extra",
   "description": "Meteor Extra is a template addon for Meteor Client.",
   "authors": [
+    "AntiSea",
     "sea"
   ],
   "contact": {
@@ -14,7 +15,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "net.antisea.meteorextra.AddonTemplate"
+      "net.antisea.meteorextra.MeteorExtra"
     ]
   },
   "mixins": [
