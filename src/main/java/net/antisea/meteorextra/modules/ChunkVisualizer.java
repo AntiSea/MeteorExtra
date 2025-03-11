@@ -54,12 +54,14 @@ public class ChunkVisualizer extends Module {
 
     @Override
     public void onActivate() {
-        // Logic to activate the module
+        MinecraftClient client = MinecraftClient.getInstance();
+        int viewDistance = client.options.getViewDistance().getValue();
+        info("Chunk Visualizer activated! Render distance: " + viewDistance);
     }
 
     @Override
     public void onDeactivate() {
-        // Logic to deactivate the module
+        info("Chunk Visualizer deactivate!");
     }
 
     @EventHandler

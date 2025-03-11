@@ -26,6 +26,16 @@ public class AutoRespond extends Module {
         .build()
     );
 
+    @Override
+    public void onActivate() {
+        info("AutoRespond activated! Responding with: " + response.get());
+    }
+
+    @Override
+    public void onDeactivate() {
+        info("AutoRespond deactivated!");
+    }
+
     public AutoRespond() {
         super(MeteorExtra.CATEGORY, "auto-respond", "Automatically respond to specified messages.");
     }
