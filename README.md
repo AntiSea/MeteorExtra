@@ -18,3 +18,4 @@
 - Auto Respond 
 - Chunk Visualizer
 - Custom Splash
+- Bunny Hop
