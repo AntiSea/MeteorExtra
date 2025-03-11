@@ -11,7 +11,7 @@
 - Download the latest [release](/../../releases) of the mod from the releases tab.
 - Put it in your `.minecraft/mods` folder where you have installed Meteor.
 
-*Note: It is recommended to use the [latest dev build](https://meteorclient.com/download?devBuild=latest) of meteor while using extra*
+*Note: It is recommended to use the [latest build](https://meteorclient.com/) of meteor while using extra*
 
 # Features
 ## Modules
