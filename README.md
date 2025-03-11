@@ -5,8 +5,6 @@
   <p>Extra additions to Meteor Client that may be helpful.</p>
 </div>
 
-<hr />
-
 # How to use
 - Download the latest [release](/../../releases) of the mod from the releases tab.
 - Put it in your `.minecraft/mods` folder where you have installed Meteor.
