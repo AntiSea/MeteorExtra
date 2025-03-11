@@ -11,7 +11,7 @@
   "contact": {
     "repo": "https://github.com/AntiSea/MeteorExtra"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/extra/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
@@ -19,7 +19,7 @@
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "meteor-extra.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

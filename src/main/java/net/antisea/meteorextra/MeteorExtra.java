@@ -1,10 +1,12 @@
 package net.antisea.meteorextra;
 
 import net.antisea.meteorextra.modules.AutoRespond;
+import net.antisea.meteorextra.modules.ChunkVisualizer;
+import net.antisea.meteorextra.modules.CustomSplash;
+
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
-import meteordevelopment.meteorclient.systems.hud.HudGroup;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
@@ -12,12 +14,13 @@ import org.slf4j.Logger;
 public class MeteorExtra extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
     public static final Category CATEGORY = new Category("Meteor Extra");
-    public static final HudGroup HUD_GROUP = new HudGroup("Meteor Extra");
 
     @Override
     public void onInitialize() {
         LOG.info("Initializing Meteor Extra");
         Modules.get().add(new AutoRespond());
+        Modules.get().add(new ChunkVisualizer());
+        Modules.get().add(new CustomSplash());
     }
 
     @Override
