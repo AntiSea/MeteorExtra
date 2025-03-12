@@ -17,3 +17,4 @@
 - Chunk Visualizer
 - Custom Splash
 - Bunny Hop
+- Minecart Boost

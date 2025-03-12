@@ -4,6 +4,7 @@ import net.antisea.meteorextra.modules.AutoRespond;
 import net.antisea.meteorextra.modules.ChunkVisualizer;
 import net.antisea.meteorextra.modules.CustomSplash;
 import net.antisea.meteorextra.modules.BunnyHop;
+import net.antisea.meteorextra.modules.MinecartBoost;
 
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -19,10 +20,12 @@ public class MeteorExtra extends MeteorAddon {
     @Override
     public void onInitialize() {
         LOG.info("Initializing Meteor Extra");
+        
         Modules.get().add(new AutoRespond());
         Modules.get().add(new ChunkVisualizer());
         Modules.get().add(new CustomSplash());
         Modules.get().add(new BunnyHop());
+        Modules.get().add(new MinecartBoost());
     }
 
     @Override
