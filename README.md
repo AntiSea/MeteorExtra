@@ -18,3 +18,4 @@
 - Custom Splash
 - Bunny Hop
 - Minecart Boost
+- TNTCart Aura
