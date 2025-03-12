@@ -6,6 +6,7 @@ import net.antisea.meteorextra.modules.CustomSplash;
 import net.antisea.meteorextra.modules.BunnyHop;
 import net.antisea.meteorextra.modules.MinecartBoost;
 import net.antisea.meteorextra.modules.TNTCartAura;
+import net.antisea.meteorextra.modules.LiquidElevator;
 
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -28,6 +29,7 @@ public class MeteorExtra extends MeteorAddon {
         Modules.get().add(new BunnyHop());
         Modules.get().add(new MinecartBoost());
         Modules.get().add(new TNTCartAura());
+        Modules.get().add(new LiquidElevator());
     }
 
     @Override

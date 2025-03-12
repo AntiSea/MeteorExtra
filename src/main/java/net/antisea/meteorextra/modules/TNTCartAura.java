@@ -156,8 +156,8 @@ public class TNTCartAura extends Module {
         if (placeProtectionBlock.get()) {
             BlockPos protectionPos = mc.player.getBlockPos().offset(mc.player.getHorizontalFacing(), 1);
             if (mc.world.getBlockState(protectionPos).isAir()) {
-            mc.player.getInventory().selectedSlot = findItemSlot(randomBlock.asItem());
-            mc.interactionManager.interactBlock(mc.player, Hand.MAIN_HAND, new BlockHitResult(Vec3d.ofCenter(protectionPos), Direction.UP, protectionPos, false));
+                mc.player.getInventory().selectedSlot = findItemSlot(randomBlock.asItem());
+                mc.interactionManager.interactBlock(mc.player, Hand.MAIN_HAND, new BlockHitResult(Vec3d.ofCenter(protectionPos), Direction.UP, protectionPos, false));
             }
         }
 
